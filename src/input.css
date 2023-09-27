@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    width: 2px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(221, 215, 215);
+
+}
+
+body{
+    grid-template-areas: "left right";
+    
+}
+
+#menu{
+    grid-area: left;
+    width: 256px;
+}
+
+#navbar{
+    grid-area: right;
+}
